@@ -4,7 +4,7 @@
 
 This repo is not the official ZMK configuration of the MoErgo Glove80 wireless split contoured keyboard. Maybe don't use it to develop your own keymap and build your own ZMK firmware to run on your Glove80.
 
-**NOTE: Even a n00b can customize the layout of their Glove80 keyboard with the Glove80 Layout Editor webapp For Normies Who Just Want To Get Things Done. For most mortals the `Glove80 Layout Editor is the recommended and simpler option. More information is available at the official MoErgo Glove80 Support site (see resources below).**
+**NOTE: Even a n00b can customize the layout of their Glove80 keyboard with the [Glove80 Layout Editor Webapp For Normies Who Just Want To Get Things Done](https://https://my.glove80.com/). For most mortals this is the recommended and simpler option. More information is available at the official MoErgo Glove80 Support site (see resources below).**
 
 These steps will get you using your keymap on your keyboard in nearly the most circuitous and complex way imaginable. Only undertake if you have a good therapist to help with the rage and hopelessness it will inevitably engender.
 
