@@ -25,11 +25,11 @@ If you are looking to dig deeper into ZMK and develop new functionality, it is r
 3. Grab https://github.com/moergo-sc/zmk and slap it right on top of your checked out repo as ./src/zmk; .gitignore will protect you from the chaos hopefully.
 3. run nix-build config -o combined
 4. hopefully you got a combined/glove80.uf2; drop it into your hardware's bootloader by:
-  a. plugging in via the magic split usb cable from moergo
-  b. turning both halves off and having a relatively stock firmware on the thing to begin with
-  c. while holding down the moergo logo key and 'e', turn on the left half and drop that glove80.uf2 onto the usb storage device that appears; if it worked, the usb storage device will go away
-  d. same procedure for the right half (i didn't bother disconnecting the left half and it went ok but ymmv), but use the PgDn and 'i' keys
-  e. profit.
+   a. plugging in via the magic split usb cable from moergo
+   b. turning both halves off and having a relatively stock firmware on the thing to begin with
+   c. while holding down the moergo logo key and 'e', turn on the left half and drop that glove80.uf2 onto the usb storage device that appears; if it worked, the usb storage device will go away
+   d. same procedure for the right half (i didn't bother disconnecting the left half and it went ok but ymmv), but use the PgDn and 'i' keys
+   e. profit.
 5. edit config/glove80.keymap, or whatever you want to edit.
 6. goto #3
 
