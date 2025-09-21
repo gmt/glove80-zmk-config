@@ -33,7 +33,9 @@ If you are looking to dig deeper into ZMK and develop new functionality, it is r
 7. edit config/glove80.keymap, or whatever you want to edit.
 8. goto #4
 
-This "worked for me" in the sense that I disappeared for a couple of days and emerged having made a trivial modification to my keyboard. I couldn't find any other path to do what I wanted that seemed approachable without first learning how this stuff works; now that I know how to do it locally the github actions or even the advanced web editor documentation seem more digestible. This way let me tackle one learning curve at a time and is probably a prerequisite for full sanity preservation when hacking these keyboards... but only with a long enough time horizon. it's confusing as hell to spin up a working build environment, or at least it was for me.
+This "worked for me" in the sense that I disappeared for a couple of days and emerged having made a trivial modification to my keyboard. I couldn't find any other path to do what I wanted so I just put in the hours.
+
+Now that I know how to do it locally the github actions or even the advanced web editor documentation seem more digestible so this way, despite clearly being harder, at least let me tackle one learning curve at a time in a way I could handle and, if your brain works like mine, getting this or the -west equivalent is probably going to be a prerequisite for full sanity preservation when hacking your glove80 if you need to change more than just keymaps. But do you think like me? Probably not and more power to you, this took forever!
 
 Your keyboard is now probably a brick ready for use as a doorstop or distance weapon. Sorry for whatever I got wrong, but to be honest, I am not surprised. Get a stock .uf2 and the proceudre above is probably a decent debrick starting point, after which you will want to [reset your glove80's nvram](https://docs.moergo.com/glove80-user-guide/troubleshooting/#configuration-factory-reset-and-re-pairing-left-and-right-halves).
 
