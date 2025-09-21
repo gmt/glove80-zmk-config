@@ -31,7 +31,7 @@ If you are looking to dig deeper into ZMK and develop new functionality, it is r
    - doing the same procedure for the right half (i didn't bother disconnecting the left half and it went ok but ymmv), but this time with the PgDn and 'i' key combo
 
 7. edit config/glove80.keymap, or whatever you want to edit.
-8. goto #3
+8. goto #4
 
 This "worked for me" in the sense that I disappeared for a couple of days and emerged having made a trivial modification to my keyboard. I couldn't find any other path to do what I wanted that seemed approachable without first learning how this stuff works; now that I know how to do it locally the github actions or even the advanced web editor documentation seem more digestible. This way let me tackle one learning curve at a time and is probably a prerequisite for full sanity preservation when hacking these keyboards... but only with a long enough time horizon. it's confusing as hell to spin up a working build environment, or at least it was for me.
 
